@@ -7,9 +7,10 @@ const people = [
 // Stampa in console tutti i nomi
 // Risultato: 'Paolo', 'Giulia', 'Marco'
 
-// METODO MAP + decostruzione all'interno della funzione 
-const peopleMap = people.map(function({name}){
-  
+
+//METODO FOR EACH + DECOSTRUZIONE OGGETTO ALL'INTERNO DELLA FUNZIONE 
+
+people.forEach(function({name}){
   console.log(name);
   
 })
