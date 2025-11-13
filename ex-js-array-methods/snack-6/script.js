@@ -16,9 +16,9 @@ const zucchine = [
 
 const zucchineLarge = zucchine.filter(function({length, type}){
   if(length > 15){
-    return type;
-  }
-
+    return true;
+  } 
+  
 });
 
 console.log(zucchineLarge);

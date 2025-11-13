@@ -23,12 +23,8 @@ const students = [
 // Risultato: '3C'
 
 
-const classStudent3C = students.find(function(student){
-    if(student.class === "3C"){
-      return student.class;
-    }else {
-      return false;
-    }
+const classStudent = students.find(function(student){
+    return student.name === "Marco Lanci";
 });
+console.log(classStudent.class);
 
-console.log(classStudent3C);
